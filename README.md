@@ -15,7 +15,7 @@ Program ini menentukan bilangan terbesar dari serangkaian bilangan yang diinputk
 ## Flowchart Program
 ![Foto](https://github.com/FajarMhr24/flochart/blob/bed00e29a4955786613abc593559239314794c8d/fc.2%2C3.png)
 
-## Penjelasan kode Program
+## kode Program
 ```python
 maxBilangan = float('-inf')  # -∞
 count = 0
@@ -39,6 +39,50 @@ else:
     print("Tidak ada bilangan yang dimasukkan.")
 
 ```
+## penjelasan kode program
+
+```python
+maxBilangan = float('-inf')  # -∞
+count = 0
+```
+`maxBilangan` diinisialisasi dengan minus tak hingga (`-∞`). Ini dilakukan agar bilangan pertama yang dimasukkan selalu lebih besar dan bisa menggantikan nilai awal tersebut.
+`count` digunakan untuk menghitung jumlah bilangan valid yang dimasukkan.
+
+```python
+while True:
+    print("Masukkan bilangan (0 untuk berhenti):")
+    bilangan = int(input())  # Input bilangan
+```
+Loop `while` True akan terus berjalan hingga pengguna memasukkan `0`.
+Setiap kali loop berjalan, pengguna diminta memasukkan bilangan melalui `input()`.
+Input dari pengguna dikonversi ke integer menggunakan `int()`.
+
+```python
+if bilangan == 0:
+    break  # Keluar dari loop jika input adalah 0
+```
+Jika pengguna memasukkan `0`, perintah break akan menghentikan loop dan program keluar dari proses `input`.
+
+```python
+if bilangan > maxBilangan:
+    maxBilangan = bilangan  # Update bilangan terbesar
+```
+Jika bilangan yang baru dimasukkan lebih besar dari `maxBilangan`, maka nilai `maxBilangan` diperbarui dengan bilangan tersebut.
+
+```python
+count += 1  # Tambah hitungan bilangan yang dimasukkan
+```
+Setiap kali pengguna memasukkan bilangan (selain 0), `count` ditambah 1.
+
+```python
+if count > 0:
+    print("Bilangan terbesar adalah:", maxBilangan)
+else:
+    print("Tidak ada bilangan yang dimasukkan.")
+```
+Setelah loop berhenti, program memeriksa apakah ada bilangan yang dimasukkan dengan melihat nilai `count`
+   Jika `count > 0`, artinya ada bilangan yang dimasukkan, dan program menampilkan bilangan terbesar.
+   Jika `count == 0`, artinya pengguna langsung memasukkan 0 tanpa input bilangan lain, dan program menampilkan pesan "Tidak ada bilangan yang dimasukkan."
 
 ## hasil kode program
 ![foto](https://github.com/FajarMhr24/foto/blob/862ee0c4aecf67ccc801158c60323719fb23dc58/Screenshot%202024-10-20%20133035.png)
