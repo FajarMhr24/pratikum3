@@ -41,4 +41,4 @@ else:
 ```
 
 ## hasil kode program
-![foto](https://github.com/FajarMhr24/foto/blob/e1b13ed23644db24acabbe7fbfe633966a2327b5/Screenshot%202024-10-17%20204153.png)
+![foto](https://github.com/FajarMhr24/foto/blob/862ee0c4aecf67ccc801158c60323719fb23dc58/Screenshot%202024-10-20%20133035.png)
