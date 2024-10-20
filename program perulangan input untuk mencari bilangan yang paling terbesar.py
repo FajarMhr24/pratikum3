@@ -1,21 +1,19 @@
-# Inisialisasi variabel
 maxBilangan = float('-inf')  # -∞
 count = 0
 
-# Loop utama untuk menerima input pengguna
 while True:
     print("Masukkan bilangan (0 untuk berhenti):")
-    bilangan = int(input())  # Input bilangan
+    bilangan = int(input())  
 
     if bilangan == 0:
-        break  # Keluar dari loop jika input adalah 0
+        break  
 
     if bilangan > maxBilangan:
-        maxBilangan = bilangan  # Update bilangan terbesar
+        maxBilangan = bilangan  
 
-    count += 1  # Tambah hitungan bilangan yang dimasukkan
+    count += 1 
 
-# Mengecek apakah ada bilangan yang dimasukkan
+
 if count > 0:
     print("Bilangan terbesar adalah:", maxBilangan)
 else:
