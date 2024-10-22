@@ -17,7 +17,7 @@ Program ini menentukan bilangan terbesar dari serangkaian bilangan yang diinputk
 
 ## kode Program
 ```python
-maxBilangan = float('-inf')  # -∞
+maxBilangan = float('-inf')  
 count = 0
 
 while True:
@@ -42,7 +42,7 @@ else:
 ## penjelasan kode program
 
 ```python
-maxBilangan = float('-inf')  # -∞
+maxBilangan = float('-inf')  
 count = 0
 ```
 `maxBilangan` diinisialisasi dengan minus tak hingga (`-∞`). Ini dilakukan agar bilangan pertama yang dimasukkan selalu lebih besar dan bisa menggantikan nilai awal tersebut.
@@ -51,7 +51,7 @@ count = 0
 ```python
 while True:
     print("Masukkan bilangan (0 untuk berhenti):")
-    bilangan = int(input())  # Input bilangan
+    bilangan = int(input())  
 ```
 Loop `while` True akan terus berjalan hingga pengguna memasukkan `0`.
 Setiap kali loop berjalan, pengguna diminta memasukkan bilangan melalui `input()`.
@@ -59,18 +59,18 @@ Input dari pengguna dikonversi ke integer menggunakan `int()`.
 
 ```python
 if bilangan == 0:
-    break  # Keluar dari loop jika input adalah 0
+    break  
 ```
 Jika pengguna memasukkan `0`, perintah break akan menghentikan loop dan program keluar dari proses `input`.
 
 ```python
 if bilangan > maxBilangan:
-    maxBilangan = bilangan  # Update bilangan terbesar
+    maxBilangan = bilangan  
 ```
 Jika bilangan yang baru dimasukkan lebih besar dari `maxBilangan`, maka nilai `maxBilangan` diperbarui dengan bilangan tersebut.
 
 ```python
-count += 1  # Tambah hitungan bilangan yang dimasukkan
+count += 1  
 ```
 Setiap kali pengguna memasukkan bilangan (selain 0), `count` ditambah 1.
 
