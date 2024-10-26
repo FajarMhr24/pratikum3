@@ -85,4 +85,4 @@ Setelah loop berhenti, program memeriksa apakah ada bilangan yang dimasukkan den
    Jika `count == 0`, artinya pengguna langsung memasukkan 0 tanpa input bilangan lain, dan program menampilkan pesan "Tidak ada bilangan yang dimasukkan."
 
 ## hasil kode program
-![foto](Screenshot 2024-10-20 133035.png)
+![foto](https://github.com/FajarMhr24/foto/blob/862ee0c4aecf67ccc801158c60323719fb23dc58/Screenshot%202024-10-17%20204153.png)
